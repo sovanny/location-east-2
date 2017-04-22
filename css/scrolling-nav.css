@@ -1,0 +1,227 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+
+    background: #ffa616;
+    color: white;
+}
+
+h1{
+    color: #db0029;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding-: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .logo {
+        display:none;
+    }
+}
+
+.navbar-brand{
+    text-align: center;
+}
+
+
+/* För att centrera grejerna i navbaren*/
+.navbar.center .container {
+    text-align: center;
+}
+.navbar.center .container .nav {
+    float: none;
+    display:inline-block;
+    vertical-align: top;
+
+}
+
+.navbar-nav{
+
+    vert-align: middle;
+
+}
+
+.navbar-custom a{
+    color: black;
+}
+
+.navbar-nav a{
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: x-large;
+
+}
+/* Så att allt blir lika brett i navbaren*/
+.navbar li{
+    width: 150px;
+
+
+}
+
+#logo-img{
+    padding: 0 0 0 0;
+}
+
+.logo{
+    margin: 8px 15px 0 15px;
+}
+
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+h1{
+    font-size: 55px;
+}
+p{
+    font-size: 25px;
+}
+#colorful{
+    width: 100vw;
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.line-up-section {
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.podcast-section {
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.contact-section {
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.sponsors-section {
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+/* NAVBAR CUSTOM COLORS https://work.smarchal.com/twbscolor/css/ffffffcdcfd0000000ffa6161 */
+.navbar-default {
+    background-color: #ffa616;
+    border-color: #ffa616;
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #db0029;
+}
+.navbar-default .navbar-text {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #db0029;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+    background-color: #ffa616;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+    color: #db0029;
+    background-color: #ff6309;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+    background-color: #ff6309;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #db0029;
+    background-color: #ff6309;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #db0029;
+    background-color: #ff6309;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #db0029;
+    background-color: #ff6309;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ff6309;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #ff6309;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+    color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+    color: #db0029;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #db0029;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #db0029;
+        background-color: #ff6309;
+    }
+}
